@@ -127,3 +127,653 @@ will-change: transform;
     max-width: 220px;
     margin: auto;
 }
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor3{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor3 figure3{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor3 figure3 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor3 figure .capa3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor3 figure:hover > .capa3 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor3 figure:hover > .capa3 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor3 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor3 figure .capa3 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor3 figure .capa3 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor4{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor4 figure4{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor4 figure4 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor4 figure .capa4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor4 figure:hover > .capa4 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor4 figure:hover > .capa4 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor4 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor4 figure .capa4 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor4 figure .capa4 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor5{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor5 figure5{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor5 figure5 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor5 figure .capa5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor5 figure:hover > .capa5 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor5 figure:hover > .capa5 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor5 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor5 figure .capa5 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor5 figure .capa5 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor6{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor6 figure6{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor6 figure6 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor6 figure .capa6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor6 figure:hover > .capa6 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor6 figure:hover > .capa6 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor6 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor6 figure .capa6 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor6 figure .capa6 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor7{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor7 figure7{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor7 figure7 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor4 figure .capa3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor4 figure:hover > .capa4 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor4 figure:hover > .capa4 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor4 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor4 figure .capa4 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor4 figure .capa4 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor8{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor8 figure8{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor8 figure8 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor8 figure .capa8{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor8 figure:hover > .capa8 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor8 figure:hover > .capa8 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor8 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor8 figure .capa8 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor8 figure .capa8 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor9{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor9 figure9{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor9 figure9 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor9 figure .capa9{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor9 figure:hover > .capa9 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor9 figure:hover > .capa9 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor9 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor9 figure .capa9 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor9 figure .capa9 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor10{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor10 figure10{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor10 figure10 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor10 figure .capa10{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor10 figure:hover > .capa10 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor10 figure:hover > .capa10 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor10 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor10 figure .capa10 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor10 figure .capa10 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor11{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor11 figure11{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor11 figure11 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor11 figure .capa11{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor11 figure:hover > .capa11 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor11 figure:hover > .capa11 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor11 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor11 figure .capa11 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor11 figure .capa11 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+---------------------------------------------------------------------------------------------------------
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .contenedor12{
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+       
+    }
+    .contenedor12 figure12{
+position: relative;
+height: 250px;
+cursor: pointer;
+width: 300px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50); 
+}
+.contenedor12 figure12 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+.contenedor12 figure .capa12{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor12 figure:hover > .capa12 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor12 figure:hover > .capa12 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor12 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor12 figure .capa12 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor12 figure .capa12 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
