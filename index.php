@@ -68,21 +68,17 @@
     <tr>
       <h1></h1>
       <h3>OFERTAS DEL MES</h3>
-      <div>
+      
         <img src="images/1.jpg" alt="">
-      </div>
-      <div>
+      
         <img src="images/2.jpg" alt="">
-      </div>
-      <div>
+    
         <img src="images/3.jpg" alt="">
-      </div>
-      <div>
+      
         <img src="images/4.jpg" alt="">
-      </div>
-      <div>
-        <img src="images/5.jpg" alt="">
-      </div>
+      
+        <img src="images/5.png" alt="">
+     
     </tr>
   </table>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
