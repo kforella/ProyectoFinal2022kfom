@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body style="background: url(images/fondo-1.jpg); background-size: cover; background-repeat: no-repeat;">
+
+<h2>BOLIGRAFOS PIN POINT</h2>
+<FONT FACE="courier new">Estos boligrafos son de gran calidad y duraderos</FONT>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">BOLIGRAFO AZOR PIN POINT 0.7MM 10U:</font> </p>
+<div class="container">
+  <img src="images/pin1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 20.90</div>
+    <h3>Boligrafos 10 unidades</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">CAJA DE BOLIGRAFOS AZOR PIN POINT :</font> </p>
+<div class="container">
+  <img src="images/pin2.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 35</div>
+    <h3>CAJA DE BOLIGRAFOS AZUL</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red"> BOLIGRAFOS AZOR 3 UNIDADES:</font> </p>
+<div class="container">
+  <img src="images/pin3.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 7.00</div>
+    <h3>BOLIGRAFOS PIN POINT ROJO, AZUL Y NEGRO</h3>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

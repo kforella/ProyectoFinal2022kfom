@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body style="background: url(images/fondo-1.jpg); background-size: cover; background-repeat: no-repeat;">
+
+<h2>AFILAMINA STAEDTLER</h2>
+<FONT FACE="courier new">Afilaminas para minas de 2mm tanto como grafito y crayón;limpiador de punta;Se puede ajustar a 2 tipos de punta</FONT>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">AFILA LAPPICES Y AFILA MINAS</font> </p>
+<div class="container">
+  <img src="images/afl1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 40.00</div>
+    <h3>AFILAMINAS MANUAL</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">Afilaminas M+R 2mm.:</font> </p>
+<div class="container">
+  <img src="images/afl2.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 20.00</div>
+    <h3>AFILAMINAS MORE POCKET 270</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red"> AFILAMINAS STAEDTLER 503:</font> </p>
+<div class="container">
+  <img src="images/afl3.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 65.00</div>
+    <h3>STAEDTLER 502 DE TAMBOR (125)</h3>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

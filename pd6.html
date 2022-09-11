@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body style="background: url(images/fondo-1.jpg); background-size: cover; background-repeat: no-repeat;">
+
+<h2>ARENA TUCAN PARA MANUALIDADES</h2>
+<FONT FACE="courier new">Botes  con variedad de colores diferentes de arena. Cada bote cuenta con una tapadera y un surtidor que ayuda a aplicar la arena suavemente.</FONT>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">ARENA 3 UNIDADES:</font> </p>
+<div class="container">
+  <img src="images/are1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 20.00</div>
+    <h3>ARENA 3 COLORES</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">ARENA 1 UNIDAD:</font> </p>
+<div class="container">
+  <img src="images/are3.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 7.00</div>
+    <h3>ARENA POR UNIDAD</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red"> ARENA UNIDAD GRANDE:</font> </p>
+<div class="container">
+  <img src="images/are2.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 150.00</div>
+    <h3>ARENA 14 UNIDADES</h3>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

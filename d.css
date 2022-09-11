@@ -1,0 +1,29 @@
+.a [type=submit]{
+    background-color: yellow;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.b [type=submit]{
+background-color: skyblue;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: solid;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.c [type=submit]{
+background-color: lightblue;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: solid;
+border-radius: 4px;
+cursor: pointer;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body style="background: url(images/fondo-1.jpg); background-size: cover; background-repeat: no-repeat;">
+
+<h2>ALMOHADILAS PARA PIZARRA</h2>
+<FONT FACE="courier new">Los colores utilizados son mas o menos transparentes segun la cantidad de agua con la que se mezcla, y a veces dejan ver el fondo del papel, que suele ser blanco y que actua como un verdadero tono.</FONT>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">ALMOHADILLA DE MADERA:</font> </p>
+<div class="container">
+  <img src="images/alm1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 10.5</div>
+    <h3>ALMOHADILLA BACO</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">ALMOHADILLA ERASER PAD TUCAN:</font> </p>
+<div class="container">
+  <img src="images/alm2.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 15.7</div>
+    <h3>ALMOHADILLA TUCAN</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red"> ALMOHADILLA ARTLINE:</font> </p>
+<div class="container">
+  <img src="images/alm3.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 25.00</div>
+    <h3>ALMOHADILLA 2/1</h3>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

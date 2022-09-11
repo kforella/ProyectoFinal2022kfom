@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body style="background: url(images/fondo-1.jpg); background-size: cover; background-repeat: no-repeat;">
+
+<h2>CRAYONES DE MADERA</h2>
+<FONT FACE="courier new">Un lapiz de color es un material de arte formado por una mina pigmentada, encerrada dentro de una funda cilindrica de madera. Al contrario de los lapices de grafito y carbon vegetal, la mina de los lapices de color esta hecha a base de cera o aceite, que contiene proporciones variables de pigmentos, aditivos y aglutinantes.</FONT>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">CRAYONES DE MADERA Y-PLUS</font> </p>
+<div class="container">
+  <img src="images/cra1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 40.00</div>
+    <h3>CRAYONES CON BORRADOR 24 COLORES</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red">CRAYONES BACOIRIS:</font> </p>
+<div class="container">
+  <img src="images/cra2.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 19.95</div>
+    <h3>CRAYONES 24 COLORES</h3>
+  </div>
+</div>
+
+<p>
+    <font  FACE="impact" SIZE=6 COLOR="red"> CRAYONES BIC:</font> </p>
+<div class="container">
+  <img src="images/cra3.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">PRECIO: Q 29.00</div>
+    <h3>CRAYONES BICOLOR 24 UNIDADES</h3>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

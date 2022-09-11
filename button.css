@@ -1,4 +1,4 @@
-.a1 [type=submit]{
+.a [type=submit]{
     width: 100%;
     background-color: rgba(255, 255, 0, 0.856);
     color: black;
@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.a2 [type=submit]{
+.b [type=submit]{
 width: 100%;
 background-color: rgba(132, 202, 230, 0.856);
 color: black;
@@ -18,7 +18,7 @@ border-radius: 4px;
 cursor: pointer;
 }
 
-.a3 [type=submit]{
+.c [type=submit]{
 width: 100%;
 background-color: rgb(53, 53, 245, 0.856);
 color: black;
