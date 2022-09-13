@@ -29,11 +29,13 @@
       </td>
       <td colspan="4">
         <section class="c">
-          <form action="contac.php" method="post">
-            <input type="submit" value="Contactenos">
+          <form action="login2.php" method="post">
+            <input type="submit" value="Mensajes">
           </form>
         </section>
       </td>
+
+      
     </tr>
     </table>
 
@@ -93,7 +95,7 @@ input[type=submit]:hover {
        
         <br><br>
                     <center><h1>Contactenos</h1><hr></center>
-                    <form class="w3-container" action="guardar.php" method="post">
+                    <form class="w3-container" action="bguar.php" method="post">
         <p>
             <label>Nombres</label>
             <input class="w3-input" type="text" name="a">

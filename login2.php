@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="diseñologin.css">
   <link rel="stylesheet" href="incolor.css">
   <link rel="icon" href="images/CATi.ico">
-  <script src="login.js"></script>
+  <script src="login2.js"></script>
 </head>
 <body>
     <body style="background: url(images/fondo-1.jpg); background-size: cover; background-repeat: no-repeat;"></body>
@@ -33,5 +33,3 @@
 
 </body>
 </html>
-
-
